@@ -9,7 +9,7 @@ export default function Home() {
         <img src={DistortedTK} alt="animated Jesus distorted" />
       </div>
       <div className="homeText">
-        <h1>Hey, I'm Jesus Balandra</h1>
+        <h1>Hello, I'm Jesus Balandra</h1>
         <h3>
           I'm a{" "}
           <span>full stack developer</span>
@@ -21,7 +21,7 @@ export default function Home() {
             href="https://drive.google.com/file/d/1g98MdkmMuh865XDznyeQZlxo5qxbHREB/view?usp=sharing"
             target="_blank" rel="noreferrer"
           >
-            Resume
+            Résumé
           </a>
         </div>
       </div>

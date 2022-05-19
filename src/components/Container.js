@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import About from '../pages/About';
 import Contact from '../pages/Contact';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 import Home from '../pages/Home';
 import Navigation from './Navigation';
 import Projects from '../pages/Projects';
@@ -30,7 +30,7 @@ export default function Container() {
     <div>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
